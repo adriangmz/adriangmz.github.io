@@ -2463,7 +2463,7 @@
 /* Header */
 
 	#header {
-		background-color: blue;
+		background-color: #000080 ;
 		background-attachment: scroll,								fixed;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
