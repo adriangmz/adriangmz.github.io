@@ -18,6 +18,23 @@
 		vertical-align: baseline;
 
 	}
+	.fin{
+
+		display: flex;
+		background-color: black;
+
+	}
+
+.menu{
+
+	width: 100px;
+	height: 30px;
+	justify-content:space-between;
+	border-color: green;
+	border-width: 2px;
+
+}
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
 	 {
@@ -2528,10 +2545,12 @@
 
 		#footer .icons {
 			margin: 1em 0 0 0;
+			text-align: center;
 		}
 
 			#footer .icons a {
 				color: rgba(255, 255, 255, 0.4);
+				text-align: center;
 			}
 
 		#footer .copyright {
@@ -2540,6 +2559,7 @@
 			list-style: none;
 			margin: 1em 0 0 0;
 			padding: 0;
+			text-align: center;
 		}
 
 			#footer .copyright li {
@@ -2548,6 +2568,7 @@
 				line-height: 1em;
 				margin-left: 0.75em;
 				padding-left: 0.75em;
+				text-align: center;
 			}
 
 				#footer .copyright li:first-child {
